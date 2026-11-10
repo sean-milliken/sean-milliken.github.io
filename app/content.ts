@@ -19,56 +19,45 @@ export type Project = {
 
 export const profile = {
   name: "Sean Milliken",
-  bio: "TODO: One or two sentences about who you are and what you like to build.",
-  current: { role: "TODO: Role", company: "TODO: Company" },
+  bio: "I'm a Computer Science major at the University of Pittsburgh, with a passion for technology.",
+  current: { role: "Backend Developer", company: "Pitt Cloud Innovation Center" },
   about: [
-    "TODO: A short paragraph about your background — school, major, what got you into this.",
-    "TODO: A second paragraph about what you're interested in, or what you do outside of work.",
+    "Junior CS major at Pitt, and currently a Backend Developer for the Pitt AWS Cloud Innovation Center. I started coding in highschool and have been hooked on it ever since.",
+    "Video games are what got me into coding initially, as I wanted to learn how games I loved playing were made behind the scenes. Now I my technical interests include Distributed Systems, Cloud Computing, and Embedded Programming",
+    "In my free time I love watching movies, listening to music, playing video games, and playing poker"
   ],
-  email: "TODO@example.com",
-  linkedin: "https://www.linkedin.com/in/TODO",
+  email: "seanpmilliken@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sean-milliken",
   github: "https://github.com/sean-milliken",
   resume: "/resume.pdf",
 };
 
 export const experience: Experience[] = [
   {
-    company: "TODO: Company A",
-    role: "TODO: Role title",
-    start: "TODO",
+    company: "Pitt Cloud Innovation Center",
+    role: "Backend Developer",
+    start: "January 2026",
     end: "Present",
-    blurb: "TODO: One line on what you did or the team you were on.",
+    blurb: "Developing Open Source solutions to real-world problems",
   },
   {
-    company: "TODO: Company B",
-    role: "TODO: Role title",
-    start: "TODO",
-    end: "TODO",
-    blurb: "TODO: One line on what you did or the team you were on.",
-  },
-  {
-    company: "TODO: Company C",
-    role: "TODO: Role title",
-    start: "TODO",
-    end: "TODO",
-    blurb: "TODO: One line on what you did or the team you were on.",
+    company: "Dunwoody Village",
+    role: "Information Technology Intern",
+    start: "May 2025",
+    end: "August 2025",
+    blurb: "Assisted with daily IT operations and tech support",
   },
 ];
 
 export const projects: Project[] = [
   {
-    name: "TODO: Project one",
-    tagline: "TODO: What it is, in one line.",
-    url: "https://github.com/sean-milliken",
+    name: "PA Accreditation Manager",
+    tagline: "AI-Powered Dashboard to help Universities manage their PA Accreditation status",
+    url: "https://github.com/pitt-cic/PA-Accreditation-Manager",
   },
   {
-    name: "TODO: Project two",
-    tagline: "TODO: What it is, in one line.",
-    url: "https://github.com/sean-milliken",
-  },
-  {
-    name: "TODO: Project three",
-    tagline: "TODO: What it is, in one line.",
-    url: "https://github.com/sean-milliken",
+    name: "Margin Guard",
+    tagline: "Dashboard to help small businesses detect and mitigate supply chain disruptions",
+    url: "https://github.com/sean-milliken/MarginGuard",
   },
 ];

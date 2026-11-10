@@ -239,7 +239,7 @@ h3 {
 }
 
 .current {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 .headshot {
@@ -323,14 +323,15 @@ h3 {
 /* Info */
 .info-list li {
   display: grid;
-  grid-template-columns: 6rem 1fr;
+  grid-template-columns: 5rem 1fr;
+  align-items: baseline;
   gap: 1rem;
-  padding: 0.35rem 0;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
 }
 
 .info-label {
-  font-size: 0.9rem;
-  padding-top: 0.05rem;
+  font-size: 0.8rem;
 }
 
 .info-list a {
