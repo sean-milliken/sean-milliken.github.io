@@ -23,7 +23,7 @@ export const profile = {
   current: { role: "Backend Developer", company: "Pitt Cloud Innovation Center" },
   about: [
     "Junior CS major at Pitt, and currently a Backend Developer for the Pitt AWS Cloud Innovation Center. I started coding in highschool and have been hooked on it ever since.",
-    "Video games are what got me into coding initially, as I wanted to learn how games I loved playing were made behind the scenes. Now I my technical interests include Distributed Systems, Cloud Computing, and Embedded Programming",
+    "Video games are what got me into coding initially, as I wanted to learn how games I loved playing were made behind the scenes. Now my technical interests include Distributed Systems, Cloud Computing, and Embedded Programming.",
     "In my free time I love watching movies, listening to music, playing video games, and playing poker"
   ],
   email: "seanpmilliken@gmail.com",
